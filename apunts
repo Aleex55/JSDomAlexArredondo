@@ -1,0 +1,28 @@
+document.getElementById("id element").widith = amplada
+document.getElementById("id element").height = altura
+
+//Cambia el ById por ByClass per modificar els elements d'una classe
+
+//Funcio que cambia tamañ primera lledtra d'una llista:
+
+function changeSize() {
+    var listOl = document.getElementsByClassName("nom class")
+    var list = listOl[0].children
+    for (let i = 0; i < list.length; i++){
+        var text = list[i].innerHTML.slice(1);
+        list[i].innerHTML = list[i].innerHTML.charAT(0).fontsize + text;
+    }
+}
+
+ex6:
+function wordCount() {
+    var paraules = getElementById("nom id")
+    paraules.split(" ");
+    return paraules.length;
+}
+
+ex7:
+function addImage(){
+    var img = document.createElement("img");
+    img.src = "source";
+}
